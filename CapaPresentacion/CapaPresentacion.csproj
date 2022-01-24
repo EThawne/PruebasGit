@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormErick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormErick.Designer.cs">
+      <DependentUpon>FormErick.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aracelly.resx">
