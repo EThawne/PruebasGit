@@ -46,20 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aracelly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aracelly.Designer.cs">
+      <DependentUpon>Aracelly.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+ 
+    <Compile Include="Mileni3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mileni3.Designer.cs">
+      <DependentUpon>Mileni3.cs</DependentUpon>
+=======
     <Compile Include="FormErick.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormErick.Designer.cs">
       <DependentUpon>FormErick.cs</DependentUpon>
+      
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Aracelly.resx">
+      <DependentUpon>Aracelly.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
