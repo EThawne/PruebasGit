@@ -58,11 +58,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+ 
+    <Compile Include="Mileni3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mileni3.Designer.cs">
+      <DependentUpon>Mileni3.cs</DependentUpon>
+=======
     <Compile Include="FormErick.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormErick.Designer.cs">
       <DependentUpon>FormErick.cs</DependentUpon>
+      
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
